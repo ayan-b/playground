@@ -1,2 +1,16 @@
-- name: Todo List using GitHub Gist
-  uses: ayan-b/gist-todo-list-action@0.0.1
+name: Update Todo List
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Todo List using GitHub Gist
+      uses: ayan-b/gist-todo-list-action@0.0.1
+      env:
+        TIME_ZONE: "Asia/Kolkata"
