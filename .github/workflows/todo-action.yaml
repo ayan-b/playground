@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Todo List using GitHub Gist
-      uses: ayan-b/gist-todo-list-action@master
+      uses: ayan-b/gist-todo-list-action@0.1.0
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         TODO_GIST: ${{ secrets.TODO_GIST }}
