@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Todo List using GitHub Gist
-      uses: ayan-b/gist-todo-list-action@0.0.1
+      uses: ayan-b/gist-todo-list-action@0.0.1.1
       env:
         TIME_ZONE: "Etc/GMT-12"
