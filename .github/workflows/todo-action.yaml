@@ -14,4 +14,7 @@ jobs:
     - name: Todo List using GitHub Gist
       uses: ayan-b/gist-todo-list-action@testing
       env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        TODO_GIST: ${{ secrets.TODO_GIST }}
+        DONE_GIST: ${{ secrets.DONE_GIST }}
         TIME_ZONE: "Etc/GMT-12"
