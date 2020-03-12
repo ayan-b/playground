@@ -13,4 +13,4 @@ jobs:
     - name: Todo List using GitHub Gist
       uses: ayan-b/gist-todo-list-action@0.0.1
       env:
-        TIME_ZONE: "Asia/Kolkata"
+        TIME_ZONE: "Etc/GMT-12"
