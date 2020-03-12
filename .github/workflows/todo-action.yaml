@@ -1,4 +1,4 @@
-name: Update Todo List
+name: Update Todo List IST
 
 on:
   push:
@@ -16,4 +16,4 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         TODO_GIST: ${{ secrets.TODO_GIST }}
         DONE_GIST: ${{ secrets.DONE_GIST }}
-        TIME_ZONE: "Etc/GMT-12"
+        TIME_ZONE: "Asia/Kolkata"
